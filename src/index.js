@@ -11,7 +11,7 @@ import { sendReport } from './mailer.js';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const clientsPath = path.join(__dirname, 'config', 'clients.json');
 
-console.log('🚀 Neurox Intel - Sistema de Inteligencia Competitiva');
+console.log('🚀 Neurox Intel - Sistema de Inteligencia Competitiva (v2)');
 console.log(`⏰ Ejecución: ${new Date().toISOString()}`);
 console.log('');
 
