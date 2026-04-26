@@ -2,11 +2,11 @@
   "name": "neurox-intel",
   "version": "1.0.0",
   "description": "Sistema de inteligencia competitiva automática multi-cliente",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node src/index.js"
+    "start": "node src/main.js",
+    "dev": "node src/main.js"
   },
   "keywords": [
     "inteligencia",

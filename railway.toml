@@ -3,9 +3,9 @@ builder = "nixpacks"
 buildCommand = "npm install"
 
 [deploy]
-startCommand = "node src/index.js"
+startCommand = "node src/main.js"
 
 [[crons]]
 # Lunes 8am hora Chile (UTC-3) = 11:00 UTC
 schedule = "0 11 * * 1"
-command = "node src/index.js"
+command = "node src/main.js"
