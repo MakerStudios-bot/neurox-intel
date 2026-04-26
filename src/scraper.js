@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 import * as cheerio from 'cheerio';
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
