@@ -2,6 +2,19 @@ import 'dotenv/config.js';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+
+// Polyfill File for undici
+if (!globalThis.File) {
+  class File {
+    constructor(bits, filename, options = {}) {
+      this.bits = bits;
+      this.filename = filename;
+      this.type = options.type || '';
+    }
+  }
+  globalThis.File = File;
+}
+
 import { discover } from './discovery.js';
 import { scrapeCompetitors } from './scraper.js';
 import { analyzeChanges } from './analyzer.js';
