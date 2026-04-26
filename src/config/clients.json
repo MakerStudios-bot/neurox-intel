@@ -1,0 +1,12 @@
+[
+  {
+    "id": "queirolo",
+    "nombre": "Ópticas Queirolo",
+    "rubro": "ópticas y lentes",
+    "pais": "Chile",
+    "email": "joaquinrqueirolo@gmail.com",
+    "activo": true,
+    "competidores": [],
+    "sheetName": "Queirolo"
+  }
+]

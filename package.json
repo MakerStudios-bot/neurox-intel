@@ -1,0 +1,28 @@
+{
+  "name": "neurox-intel",
+  "version": "1.0.0",
+  "description": "Sistema de inteligencia competitiva automática multi-cliente",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "inteligencia",
+    "competencia",
+    "monitoreo",
+    "scraping"
+  ],
+  "author": "Neurox",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.3",
+    "resend": "^3.0.0",
+    "googleapis": "^139.0.0",
+    "google-auth-library": "^9.4.1",
+    "cheerio": "^1.0.0",
+    "node-fetch": "^3.3.0",
+    "dotenv": "^16.0.3"
+  }
+}
