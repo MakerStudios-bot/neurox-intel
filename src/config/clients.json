@@ -6,7 +6,38 @@
     "pais": "Chile",
     "email": "joaquinrqueirolo@gmail.com",
     "activo": true,
-    "competidores": [],
+    "competidores": [
+      {
+        "nombre": "Óptica Los Andes",
+        "website": "www.opticalosandes.cl",
+        "instagram": "@opticalosandes",
+        "google_maps_query": "Óptica Los Andes Chile"
+      },
+      {
+        "nombre": "Óptica Universitaria",
+        "website": "www.opticauniversitaria.cl",
+        "instagram": "@opticauniversitaria",
+        "google_maps_query": "Óptica Universitaria Santiago Chile"
+      },
+      {
+        "nombre": "GrandVision Chile",
+        "website": "www.grandvision.cl",
+        "instagram": "@grandvisionchile",
+        "google_maps_query": "GrandVision óptica Chile"
+      },
+      {
+        "nombre": "Óptica Devlyn",
+        "website": "www.devlyn.cl",
+        "instagram": "@opticadevlyn",
+        "google_maps_query": "Óptica Devlyn Santiago Chile"
+      },
+      {
+        "nombre": "Óptica Marchesi",
+        "website": "www.marchesi.cl",
+        "instagram": "@opticamarchesi",
+        "google_maps_query": "Óptica Marchesi Chile"
+      }
+    ],
     "sheetName": "Queirolo"
   }
 ]
