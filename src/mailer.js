@@ -53,7 +53,7 @@ function htmlTemplate(nombreCliente, reporte) {
 export async function sendReport(email, nombreCliente, reporte) {
   try {
     const response = await resend.emails.send({
-      from: 'intel@neurox.com',
+      from: 'onboarding@resend.dev',
       to: email,
       subject: `📊 Inteligencia Competitiva - ${nombreCliente} (Semana ${new Date().toISOString().split('T')[0]})`,
       html: htmlTemplate(nombreCliente, reporte),
